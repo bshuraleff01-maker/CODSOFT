@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main class="calculator">
+        <header class="calculator-header">
+            <h1>Calculator</h1>
+            <p>Fast, responsive, and easy to use.</p>
+        </header>
+
+        <section class="calculator-screen">
+            <div class="calculator-display" id="output">0</div>
+        </section>
+
+        <section class="calculator-keys keys">
+            <button class="btn btn-clear" data-action="clear">AC</button>
+            <button class="btn btn-delete" data-action="delete">DEL</button>
+            <button class="btn btn-percent" data-action="percent">%</button>
+            <button class="btn btn-operator" data-action="operator">/</button>
+
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn btn-operator" data-action="operator">*</button>
+
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn btn-operator" data-action="operator">-</button>
+
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn btn-operator" data-action="operator">+</button>
+
+            <button class="btn btn-zero">0</button>
+            <button class="btn" data-action="decimal">.</button>
+            <button class="btn btn-equal" data-action="calculate">=</button>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
