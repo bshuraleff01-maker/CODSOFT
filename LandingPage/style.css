@@ -129,7 +129,6 @@ h1 {
 }
 
 
-/* Tablet: max-width 1024px */
 @media (max-width: 1024px) {
     .main {
         max-width: 90%;
@@ -144,7 +143,7 @@ h1 {
     }
 }
 
-/* Mobile: max-width 768px */
+
 @media (max-width: 768px) {
     .main {
         max-width: 95%;
@@ -166,7 +165,7 @@ h1 {
     }
 }
 
-/* Small Mobile: max-width 480px */
+
 @media (max-width: 480px) {
     .main {
         max-width: 100%;
